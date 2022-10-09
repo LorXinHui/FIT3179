@@ -563,9 +563,9 @@ Zambia,Services,40.7,both
 Zimbabwe,Agriculture,66.3,both
 Zimbabwe,Industry,6.5,both
 Zimbabwe,Services,27.2,both
-"Total, all countries or areas",Agriculture,25.4,female
-"Total, all countries or areas",Industry,16,female
-"Total, all countries or areas",Services,58.6,female
+"All countries",Agriculture,25.4,female
+"All countries",Industry,16,female
+"All countries",Services,58.6,female
 Afghanistan,Agriculture,64.8,female
 Afghanistan,Industry,24.8,female
 Afghanistan,Services,10.3,female
@@ -1127,9 +1127,9 @@ Zambia,Services,41.9,female
 Zimbabwe,Agriculture,69.6,female
 Zimbabwe,Industry,1.9,female
 Zimbabwe,Services,28.5,female
-"Total, all countries or areas",Agriculture,27.2,male
-"Total, all countries or areas",Industry,27.6,male
-"Total, all countries or areas",Services,45.2,male
+"All countries",Agriculture,27.2,male
+"All countries",Industry,27.6,male
+"All countries",Services,45.2,male
 Afghanistan,Agriculture,36.4,male
 Afghanistan,Industry,16.5,male
 Afghanistan,Services,47.1,male
