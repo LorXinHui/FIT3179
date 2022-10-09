@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Total",
+    "data": {
+        "url": "https://raw.githubusercontent.com/LorXinHui/FIT3179/main/Homework%20Week%2010/Total_employment_2020.csv"
+    },
+    "params": [
+        {
+            "name": "Country_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All countries",
+                    "Afghanistan",
+                    "Albania",
+                    "Algeria",
+                    "Angola",
+                    "Argentina",
+                    "Armenia",
+                    "Australia",
+                    "Austria",
+                    "Azerbaijan",
+                    "Bahamas", 
+                    "Bahrain", 
+                    "Bangladesh",
+                    "Barbados"
+                ]
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "if(Country_selection!=null, datum.country == Country_selection, datum.country == 'All countries')"
+        }
+    ],
+    "encoding": {
+        "theta": {
+            "field": "value", 
+            "type": "quantitative",
+            "stack": true
+        },
+        "color": {
+            "field": "category", 
+            "type": "nominal",
+            "scale": {"scheme": "bluepurple"},
+            "title": "Economic Activity"
+        },
+        "tooltip": [
+            {"field": "category", "type": "nominal", "title": "Economic Activity"},
+            {"field": "value", "type": "quantitative", "title": "Population employed (in%)"}
+        ]
+    },
+    "layer": [
+        {
+            "mark": {"type": "arc", "outerRadius": 80, "innerRadius": 40}
+        },
+        {
+            "mark": {
+                "type": "text", 
+                "radius": 90
+            },
+            "encoding": {
+                "text": {"field": "value", "type": "quantitative"}
+            }
+        }
+    ] 
+}   
