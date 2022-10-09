@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Total",
+    "title": "Female",
     "data": {
-        "url": "https://raw.githubusercontent.com/LorXinHui/FIT3179/main/Homework%20Week%2010/Total_employment_2020.csv"
+        "url": "https://raw.githubusercontent.com/LorXinHui/FIT3179/main/Homework%20Week%2010/Female_employment_2020.csv"
     },
     "params": [
         {
