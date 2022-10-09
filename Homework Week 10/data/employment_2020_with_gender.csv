@@ -1,7 +1,7 @@
 ﻿country,category,value,gender
-"Total, all countries or areas",Agriculture,26.5,both
-"Total, all countries or areas",Industry,23.1,both
-"Total, all countries or areas",Services,50.4,both
+"All countries",Agriculture,26.5,both
+"All countries",Industry,23.1,both
+"All countries",Services,50.4,both
 Afghanistan,Agriculture,42.4,both
 Afghanistan,Industry,18.3,both
 Afghanistan,Services,39.4,both
