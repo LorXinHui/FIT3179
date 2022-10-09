@@ -1,73 +1,7 @@
-﻿Region/Country/Area,Series,Value
-"Total, all countries or areas",Agriculture,27.2
-"Total, all countries or areas",Industry,27.6
-"Total, all countries or areas",Services,45.2
-Africa,Agriculture,47.1
-Africa,Industry,17.1
-Africa,Services,35.9
-Northern Africa,Agriculture,21.7
-Northern Africa,Industry,29.6
-Northern Africa,Services,48.7
-Sub-Saharan Africa,Agriculture,53.2
-Sub-Saharan Africa,Industry,14
-Sub-Saharan Africa,Services,32.7
-Eastern Africa,Agriculture,63
-Eastern Africa,Industry,11.6
-Eastern Africa,Services,25.5
-Southern Africa,Agriculture,7.9
-Southern Africa,Industry,31.8
-Southern Africa,Services,60.3
-Western Africa,Agriculture,46.2
-Western Africa,Industry,14.4
-Western Africa,Services,39.5
-Americas,Agriculture,12.3
-Americas,Industry,27.3
-Americas,Services,60.4
-Northern America,Agriculture,1.8
-Northern America,Industry,29.2
-Northern America,Services,68.9
-Latin America & the Caribbean,Agriculture,18.2
-Latin America & the Caribbean,Industry,26.3
-Latin America & the Caribbean,Services,55.5
-Caribbean,Agriculture,22.8
-Caribbean,Industry,21.2
-Caribbean,Services,56
-Central America,Agriculture,22.9
-Central America,Industry,28.5
-Central America,Services,48.6
-South America,Agriculture,15.8
-South America,Industry,25.8
-South America,Services,58.5
-Central Asia,Agriculture,21.9
-Central Asia,Industry,34.7
-Central Asia,Services,43.5
-Eastern Asia,Agriculture,24.3
-Eastern Asia,Industry,30.7
-Eastern Asia,Services,45
-South-eastern Asia,Agriculture,31.4
-South-eastern Asia,Industry,26.6
-South-eastern Asia,Services,42
-Southern Asia,Agriculture,35.8
-Southern Asia,Industry,27.7
-Southern Asia,Services,36.6
-Western Asia,Agriculture,9.4
-Western Asia,Industry,28.8
-Western Asia,Services,61.8
-Caucasus,Agriculture,16.1
-Caucasus,Industry,29.3
-Caucasus,Services,54.6
-Eastern Europe,Agriculture,10.1
-Eastern Europe,Industry,38.6
-Eastern Europe,Services,51.3
-Northern Europe,Agriculture,2.5
-Northern Europe,Industry,28.1
-Northern Europe,Services,69.5
-Southern Europe,Agriculture,7.3
-Southern Europe,Industry,32.2
-Southern Europe,Services,60.5
-Western Europe,Agriculture,2.4
-Western Europe,Industry,33.5
-Western Europe,Services,64.2
+country,category,value
+All countries,Agriculture,27.2
+All countries,Industry,27.6
+All countries,Services,45.2
 Afghanistan,Agriculture,36.4
 Afghanistan,Industry,16.5
 Afghanistan,Services,47.1
