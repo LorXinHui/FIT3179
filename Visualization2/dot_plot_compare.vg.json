@@ -1,0 +1,105 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Trend of Population Employed in each Economic Activity (in %)",
+    "width": 800,
+    "height": 400,
+    "data":{
+        "url": "https://raw.githubusercontent.com/LorXinHui/FIT3179/main/Homework%20Week%2010/data/employment_by_year_wide.csv"
+    },
+    "repeat": ["both", "female", "male"],
+    "spec": {
+        "layer": [
+            {
+                "mark": {
+                    "type": "area", 
+                    "point": true
+                },
+                "encoding": {
+                    "x": {
+                        "timeUnit": "year", "field": "year", 
+                        "title": "Year",
+                        "axis": {"format": "%Y"}
+                    },
+                    "y": {
+                        "aggregate": "sum", 
+                        "field": {"repeat": "repeat"}, 
+                        "type": "quantitative"
+                    },
+                    "color": {
+                        "field": "category", 
+                        "type": "nominal",
+                        "scale": {"scheme": "yellowgreen"},
+                        "title": "Economic Activity",
+                        "legend": {
+                            "labelColor": "#664229",
+                            "titleColor": "#664229"
+                        }
+                    },
+                    "tooltip": [
+                        {"field": "year", "timeUnit": "year", "title": "Year"},
+                        {"field": "category", "type": "nominal", "title": "Economic Activity"},
+                        {"field": {"repeat": "repeat"}, "type": "quantitative", "title": "Population employed (in%)"}
+                    ]
+                }
+            },
+            {
+                "mark": {
+                    "type": "rule",
+                    "strokeDash": [2, 2],
+                    "size": 1
+                },
+                "encoding": {
+                    "x": {"datum": {"year" : 2019}},
+                    "color": {"value": "#1b4b43"}
+                }
+            },
+            {
+                "mark": {
+                    "type": "text",
+                    "align": "right",
+                    "fontSize": 10,
+                    "fontWeight": 100,
+                    "font": "Noto Sans Ethiopic"
+                },
+                "encoding": {
+                    "text": {"value": "Covid-19 "},
+                    "x": {"datum": {"year": 2019}},
+                    "y": {"value": 130},
+                    "color": {"value": "#664229"}
+                }
+            },
+            {
+                "mark": {
+                    "type": "rule",
+                    "strokeDash": [2, 2],
+                    "size": 1
+                },
+                "encoding": {
+                    "x": {"datum": {"year" : 2015}},
+                    "color": {"value": "#1b4b43"}
+                }
+            },
+            {
+                "mark": {
+                    "type": "rule",
+                    "strokeDash": [2, 2],
+                    "size": 1
+                },
+                "encoding": {
+                    "x": {"datum": {"year" : 2009}},
+                    "color": {"value": "#1b4b43"}
+                }
+            }
+        ] 
+    },
+    "config": {
+        "background": null,
+        "view": {"stroke": "transparent"},
+        "axis": {
+            "grid": true,
+            "gridColor": "#dedede",
+            "labelColor": "#664229",
+            "titleColor": "#664229"
+          }
+    } 
+}

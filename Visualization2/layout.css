@@ -1,0 +1,55 @@
+html, body {
+    background-color: #f0e9e6cc;
+}
+
+pure-u-1-3{
+    margin-top: 30px;
+    height: 30vw;
+}
+
+h1{
+    text-align: center;
+    color: #3b1d14;
+    font-size: 40px;
+}
+
+h2{
+    text-align: left;
+    color: #664229;
+    font-size: 30px;
+}
+
+#donut_chart_total{
+    width: 90%;
+    height: 90%;
+}
+
+#donut_chart_female{
+    width: 90%;
+    height: 90%;
+}
+
+#donut_chart_male{
+    width: 90%;
+    height: 90%;
+}
+
+#map_agriculture{
+    width: 80%;
+    height: 80%;
+}
+
+#map_industry{
+    width: 80%;
+    height: 80%;
+}
+
+#map_services{
+    width: 100%;
+    height: 100%;
+}
+
+#dot_plot_compare{
+    width: 300%;
+    height: 300%;
+}
