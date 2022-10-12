@@ -1,7 +1,4 @@
-﻿Region/Country/Area,Series,Value
-"Total, all countries or areas",Agriculture,26.5
-"Total, all countries or areas",Industry,23.1
-"Total, all countries or areas",Services,50.4
+﻿country,category,value
 Afghanistan,Agriculture,42.4
 Afghanistan,Industry,18.3
 Afghanistan,Services,39.4
